@@ -25,7 +25,7 @@ public class Student {
     private LocalDateTime dateRegister;
 
     @OneToOne
-    @JoinColumn(name = "class_id")
-    private ClassTurma aClass;
+    @JoinColumn(name = "turma_id")
+    private Turma turma;
 
 }
